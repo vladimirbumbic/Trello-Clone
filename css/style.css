@@ -1,1 +1,91 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Tillana', cursive;
+    background-color: #232931;
+    color: white;
+}
+
+body .trello {
+    margin: 33px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+body .trello .column {
+    background-color: #393e46;
+    border: 1px solid white;
+    margin: 0 10px 10px;
+    border-radius: 18px;
+    max-width: 270px;
+}
+
+body .trello .column h3 {
+    padding: 16px;
+    color: white;
+}
+
+body .trello .column .create-message {
+    margin: 0 16px 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+body .trello .column .create-message input {
+    border: none;
+    padding: 6px;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+
+body .trello .column .create-message button {
+    background-color: #ef5350e8;
+    color: #232931;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-left: 12px;
+}
+
+body .trello .column .dropzone {
+    padding: 16px;
+    height: 100%;
+}
+
+body .delete {
+    background-color: #ef5350e8;
+    color: #232931;
+    margin-top: 7px;
+    border-radius: 4px;
+    padding: 3px;
+    border: none;
+    font-size: 10px;
+}
+
+body .card {
+    background: #232931;
+    padding: 16px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    max-width: 270px;
+}
+
+body .content {
+    word-wrap: break-word;
+}
+/*# sourceMappingURL=style.css.map */

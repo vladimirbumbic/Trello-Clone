@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Tillana', cursive;
+    background-color: $bgColor;
+    color: $white;
+    .trello {
+        margin: 33px auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .column {
+            background-color: $columnBgColor;
+            border: 1px solid $white;
+            margin: 0 10px 10px;
+            border-radius: 18px;
+            max-width: 270px;
+            h3 {
+                padding: 16px;
+                color: $white;
+            }
+            .create-message {
+                margin: 0 16px 16px;
+                display: flex;
+                input {
+                    border: none;
+                    padding: 6px;
+                    margin: 10px auto;
+                    border-radius: 4px;
+                }
+                button {
+                    background-color: $btnBgColor;
+                    color: $btnColor;
+                    padding: 5px;
+                    border: none;
+                    border-radius: 4px;
+                    font-weight: 700;
+                    margin-left: 12px;
+                }
+            }
+            .dropzone {
+                padding: 16px;
+                height: 100%;
+            }
+        }
+    }
+    .delete {
+        background-color: $btnBgColor;
+        color: $btnColor;
+        margin-top: 7px;
+        border-radius: 4px;
+        padding: 3px;
+        border: none;
+        font-size: 10px;
+    }
+
+    .card {
+        background: $cardBgColor;
+        padding: 16px;
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 10px;
+        max-width: 270px;
+    }
+
+    .content {
+        word-wrap: break-word;
+    }
+}

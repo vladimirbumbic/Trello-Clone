@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trello clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="trello">
+            <section class="column backlog">
+                <h3>Backlog</h3>
+                <div class="create-message">
+                    <div class="content">
+                        <form>
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                placeholder="New message..."
+                            />
+                            <button type="submit" class="create">Add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropzone backlog"></div>
+            </section>
+
+            <section class="column progress">
+                <h3>In progress</h3>
+                <div class="create-message">
+                    <div class="content">
+                        <form>
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                placeholder="New message..."
+                            />
+                            <button type="submit" class="create">Add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropzone progress"></div>
+            </section>
+
+            <section class="column complete">
+                <h3>Complete</h3>
+                <div class="create-message">
+                    <div class="content">
+                        <form>
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                placeholder="New message..."
+                            />
+                            <button type="submit" class="create">Add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropzone complete"></div>
+            </section>
+
+            <section class="column onhold">
+                <h3>On hold</h3>
+                <div class="create-message">
+                    <div class="content">
+                        <form>
+                            <input
+                                type="text"
+                                name=""
+                                id=""
+                                placeholder="New message..."
+                            />
+                            <button type="submit" class="create">Add</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropzone onhold"></div>
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
